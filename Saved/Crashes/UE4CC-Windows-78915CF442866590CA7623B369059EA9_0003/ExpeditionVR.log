@@ -1,0 +1,791 @@
+﻿Log file open, 12/06/18 13:12:46
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ExpeditionVR
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.402830
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.170s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.25.0
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files (x86)/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.06-04.12.47:641][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.06-04.12.47:641][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.06-04.12.47:661][  0]LogHAL: Display: Platform has ~ 32 GB [34161299456 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.06-04.12.47:661][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.06-04.12.47:661][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.06-04.12.47:664][  0]LogInit: Computer: DESKTOP-E78FIG1
+[2018.12.06-04.12.47:664][  0]LogInit: User: VRARECLab03
+[2018.12.06-04.12.47:664][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.12.06-04.12.47:664][  0]LogInit: High frequency timer resolution =3.117189 MHz
+[2018.12.06-04.12.47:664][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2018.12.06-04.12.47:664][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.06-04.12.47:664][  0]LogMemory: Process Physical Memory: 103.93 MB used, 103.93 MB peak
+[2018.12.06-04.12.47:664][  0]LogMemory: Process Virtual Memory: 89.30 MB used, 89.30 MB peak
+[2018.12.06-04.12.47:664][  0]LogMemory: Physical Memory: 8628.07 MB used,  23950.69 MB free, 32578.75 MB total
+[2018.12.06-04.12.47:664][  0]LogMemory: Virtual Memory: 4667.39 MB used,  23950.69 MB free, 134217728.00 MB total
+[2018.12.06-04.12.47:685][  0]LogInit: Using OS detected language (ko-KR).
+[2018.12.06-04.12.47:685][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.12.06-04.12.47:685][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.12.06-04.12.47:944][  0]LogStreaming: Display: Took  0.260s to InitEngineTextLocalization.
+[2018.12.06-04.12.47:944][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.06-04.12.47:969][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.06-04.12.47:969][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.06-04.12.48:174][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.12.06-04.12.48:174][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.06-04.12.48:240][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.12.06-04.12.48:240][  0]LogD3D11RHI:       8088/0/16289 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.06-04.12.48:249][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2018.12.06-04.12.48:249][  0]LogD3D11RHI:       128/0/16289 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.12.06-04.12.48:251][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.06-04.12.48:251][  0]LogD3D11RHI:       0/0/16289 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.06-04.12.48:251][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.06-04.12.48:257][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.06-04.12.48:257][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.06-04.12.48:257][  0]LogWindows: EnumDisplayDevices:
+[2018.12.06-04.12.48:257][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.12.06-04.12.48:257][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.12.06-04.12.48:258][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.12.06-04.12.48:258][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.12.06-04.12.48:258][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.12.06-04.12.48:258][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.12.06-04.12.48:259][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.12.06-04.12.48:259][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.12.06-04.12.48:259][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.12.06-04.12.48:259][  0]LogD3D11RHI:   Driver Version: 397.93 (internal:24.21.13.9793, unified:397.93)
+[2018.12.06-04.12.48:259][  0]LogD3D11RHI:      Driver Date: 5-22-2018
+[2018.12.06-04.12.48:259][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2018.12.06-04.12.48:292][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.06-04.12.48:309][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.06-04.12.48:359][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Intermediate/Shaders/WorkingDirectory/11148/).
+[2018.12.06-04.12.48:359][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/VRAR EC-Lab 03/AppData/Local/Temp/UnrealShaderWorkingDir/4BD557B14A2634D496655499DADDD34E/'.
+[2018.12.06-04.12.48:579][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.06-04.12.48:589][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.06-04.12.48:599][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.06-04.12.48:608][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.06-04.12.48:618][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.06-04.12.48:628][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.06-04.12.48:638][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.06-04.12.48:647][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.06-04.12.48:652][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.06-04.12.48:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-04.12.48:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-04.12.48:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-04.12.48:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-04.12.48:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-04.12.48:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-04.12.48:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-04.12.48:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-04.12.48:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-04.12.48:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-04.12.48:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-04.12.48:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-04.12.48:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-04.12.48:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-04.12.48:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-04.12.48:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-04.12.48:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-04.12.48:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-04.12.48:714][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.06-04.12.48:769][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.06-04.12.48:769][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.06-04.12.48:787][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.06-04.12.48:787][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.06-04.12.48:797][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.06-04.12.48:806][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.06-04.12.48:816][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.06-04.12.48:826][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.06-04.12.48:833][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.06-04.12.48:833][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.06-04.12.48:873][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.06-04.12.48:873][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.06-04.12.48:873][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.06-04.12.49:393][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.06-04.12.49:434][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/VRAR EC-Lab 03/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.06-04.12.49:434][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/VRAR EC-Lab 03/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.06-04.12.49:434][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.06-04.12.49:434][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.06-04.12.49:434][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.06-04.12.49:434][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.06-04.12.49:444][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.06-04.12.49:457][  0]LogDerivedDataCache: Using Local data cache path C:/Users/VRAR EC-Lab 03/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.06-04.12.49:457][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.06-04.12.49:457][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.06-04.12.49:470][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.06-04.12.49:471][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.06-04.12.49:472][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.06-04.12.49:540][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2018.12.06-04.12.49:760][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.06-04.12.49:798][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.06-04.12.49:801][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.06-04.12.49:801][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.06-04.12.49:801][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.06-04.12.49:801][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.06-04.12.49:871][  0]LogNetVersion: ExpeditionVR 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 821079305)
+[2018.12.06-04.12.50:290][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.111499 seconds
+[2018.12.06-04.12.50:294][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.06-04.12.50:294][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.12.06-04.12.50:294][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.06-04.12.50:984][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.06-04.12.50:996][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.06-04.12.51:117][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.06-04.12.51:117][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.06-04.12.51:118][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.06-04.12.51:119][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.06-04.12.51:266][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.06-04.12.51:344][  0]LogOcInput: OculusInput pre-init called
+[2018.12.06-04.12.51:393][  0]LogEngine: Initializing Engine...
+[2018.12.06-04.12.51:409][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.12.06-04.12.51:411][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.06-04.12.51:411][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.06-04.12.51:411][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.06-04.12.51:411][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.06-04.12.51:559][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.06-04.12.51:567][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.06-04.12.51:593][  0]LogInit: XAudio2 using 'U32J59x(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.06-04.12.51:624][  0]LogInit: FAudioDevice initialized.
+[2018.12.06-04.12.51:624][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.06-04.12.51:659][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/VRAR EC-Lab 03/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.06-04.12.51:663][  0]LogInit: Texture streaming: Enabled
+[2018.12.06-04.12.51:673][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.06-04.12.51:682][  0]LogInit: Transaction tracking system initialized
+[2018.12.06-04.12.51:696][  0]BlueprintLog: New page: 에디터 로드
+[2018.12.06-04.12.51:742][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.12.06-04.12.51:941][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.06-04.12.51:941][  0]LogCook: Display: Mobile HDR setting 0
+[2018.12.06-04.12.51:941][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.06-04.12.51:941][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.06-04.12.51:941][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.06-04.12.51:941][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.06-04.12.51:941][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.06-04.12.52:019][  0]LogFileCache: Scanning file cache for directory 'D:/Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/' took 0.03s
+[2018.12.06-04.12.52:019][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.06-04.12.52:020][  0]Cmd: MAP LOAD FILE="../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/Maps/Room.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.06-04.12.52:020][  0]LightingResults: New page: 라이팅 빌드
+[2018.12.06-04.12.52:021][  0]MapCheck: New page: 맵 체크
+[2018.12.06-04.12.52:021][  0]LightingResults: New page: 라이팅 빌드
+[2018.12.06-04.12.52:699][  0]LogLinker: Warning: '/Game/Materials/MainMaterial' 파일을 찾을 수 없습니다.
+[2018.12.06-04.12.52:699][  0]LogLinker: Warning: ../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/Meshes/Lamp.uasset 로드중 '/Game/Materials/MainMaterial' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.06-04.12.52:699][  0]LoadErrors: Error: /Game/Meshes/Lamp : 애셋에 대한 파일을 찾을 수 없습니다. /Game/Materials/MainMaterial
+[2018.12.06-04.12.52:699][  0]LogLinker: Warning: '/Game/Materials/MainMaterial' 파일을 찾을 수 없습니다.
+[2018.12.06-04.12.52:699][  0]LogLinker: Warning: ../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/Meshes/Lamp.uasset 로드중 '/Game/Materials/MainMaterial' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.06-04.12.52:699][  0]LoadErrors: Error: /Game/Meshes/Lamp : 애셋에 대한 파일을 찾을 수 없습니다. /Game/Materials/MainMaterial
+[2018.12.06-04.12.52:937][  0]LogLinker: Warning: '/Game/Materials/MainMaterial' 파일을 찾을 수 없습니다.
+[2018.12.06-04.12.52:937][  0]LoadErrors: 로드에 실패했습니다. /Game/Materials/MainMaterial.MainMaterial 레퍼런싱한 것: Lamp
+[2018.12.06-04.12.52:937][  0]LogLinker: Warning: NULL 로드중 '/Game/Materials/MainMaterial' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.06-04.12.52:937][  0]LoadErrors: 로드에 실패했습니다. /Game/Materials/MainMaterial.MainMaterial 레퍼런싱한 것: Lamp
+[2018.12.06-04.12.52:938][  0]LogLinker: Warning: '/Game/Materials/MainMaterial' 파일을 찾을 수 없습니다.
+[2018.12.06-04.12.52:938][  0]LoadErrors: 로드에 실패했습니다. /Game/Materials/MainMaterial.MainMaterial 레퍼런싱한 것: Lamp
+[2018.12.06-04.12.52:938][  0]LogLinker: Warning: NULL 로드중 '/Game/Materials/MainMaterial' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.06-04.12.52:938][  0]LoadErrors: 로드에 실패했습니다. /Game/Materials/MainMaterial.MainMaterial 레퍼런싱한 것: Lamp
+[2018.12.06-04.12.53:125][  0]LogAIModule: Creating AISystem for world Room
+[2018.12.06-04.12.53:130][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.06-04.12.53:152][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.06-04.12.53:198][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 47.096ms.
+[2018.12.06-04.12.53:198][  0]LogFileHelpers: Loading map 'Room' took 1.179
+[2018.12.06-04.12.53:379][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.06-04.12.53:385][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.06-04.12.53:390][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.06-04.12.53:395][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.06-04.12.53:428][  0]LogCollectionManager: Loaded 0 collections in 0.000639 seconds
+[2018.12.06-04.12.53:489][  0]LogFileCache: Scanning file cache for directory 'D:/Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/Collections/' took 0.01s
+[2018.12.06-04.12.53:489][  0]LogFileCache: Scanning file cache for directory 'D:/Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/Developers/VRARECLab03/Collections/' took 0.01s
+[2018.12.06-04.12.53:489][  0]LogFileCache: Scanning file cache for directory 'D:/Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/Collections/' took 0.01s
+[2018.12.06-04.12.53:489][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.06-04.12.53:499][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2572 classes and 603 folders.
+[2018.12.06-04.12.53:506][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.12.06-04.12.54:437][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.12.06-04.12.54:519][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.12.06-04.12.54:882][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.06-04.12.54:884][  0]LogSlate: Took 0.001580 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.12.06-04.12.54:886][  0]LogSlate: Took 0.001561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2018.12.06-04.12.54:886][  0]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.06-04.12.54:898][  0]LogSlate: Took 0.008770 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.06-04.12.55:039][  0]LogRenderer: Reallocating scene render targets to support 1616x812 Format 10 NumSamples 1 (Frame:1).
+[2018.12.06-04.12.55:271][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.12.06-04.12.55:271][  0]LogLoad: (Engine Initialization) Total time: 10.03 seconds
+[2018.12.06-04.12.55:271][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.06-04.12.55:283][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.12.06-04.12.55:303][  0]LogAssetRegistry: Asset discovery search completed in 5.7855 seconds
+[2018.12.06-04.12.55:305][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.06-04.12.55:305][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2018.12.06-04.12.55:306][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.06-04.12.55:314][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.06-04.13.00:102][555]LogSlate: Window '메시지 로그' being destroyed
+[2018.12.06-04.13.00:105][555]LogSlate: Window '메시지 로그' being destroyed
+[2018.12.06-04.17.30:006][190]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-04.18.02:488][992]LogSlate: Took 0.020017 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.06-04.18.02:494][992]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/MenuActor.MenuActor
+[2018.12.06-04.18.03:074][992]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.12.06-04.18.03:993][992]LogSlate: Took 0.012064 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.06-04.18.04:137][993]LogSlate: Took 0.001416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.06-04.23.00:005][ 35]LogSlate: Window 'MenuActor' being destroyed
+[2018.12.06-04.23.57:923][395]LogInit: XAudio2 using 'Speakers/Headphones(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.06-04.28.34:539][862]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Meshes/Lamp.Lamp
+[2018.12.06-04.28.36:008][863]LogRenderer: Reallocating scene render targets to support 1616x1264 Format 10 NumSamples 1 (Frame:1).
+[2018.12.06-04.28.49:091][410]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-04.33.19:986][754]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{1586bfbf-a421-4b06-a116-b7f3ce254ef5} was removed. Shutting down audio device.
+[2018.12.06-04.33.19:986][754]LogInit: XAudio2 using 'U32J59x(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.06-04.38.42:147][874]LogSlate: Window '부모 클래스 선택' being destroyed
+[2018.12.06-04.39.36:273][781]LogMetaData: Removing '/Game/UI/UI_2D.SKEL_UI_2D_C' ref from Metadata '/Game/UI/NewWidgetBlueprint.PackageMetaData'
+[2018.12.06-04.39.36:273][781]LogMetaData: Removing '/Game/UI/UI_2D.UI_2D_C' ref from Metadata '/Game/UI/NewWidgetBlueprint.PackageMetaData'
+[2018.12.06-04.39.36:273][781]LogMetaData: Removing '/Game/UI/UI_2D.UI_2D:EventGraph.K2Node_Event_0' ref from Metadata '/Game/UI/NewWidgetBlueprint.PackageMetaData'
+[2018.12.06-04.39.36:273][781]LogMetaData: Removing '/Game/UI/UI_2D.UI_2D:EventGraph.K2Node_Event_1' ref from Metadata '/Game/UI/NewWidgetBlueprint.PackageMetaData'
+[2018.12.06-04.39.36:273][781]LogMetaData: Removing '/Game/UI/UI_2D.UI_2D:EventGraph.K2Node_Event_2' ref from Metadata '/Game/UI/NewWidgetBlueprint.PackageMetaData'
+[2018.12.06-04.39.36:290][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_2D" FILE="../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/UI_2D.uasset" SILENT=true
+[2018.12.06-04.39.36:295][781]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/UI_2D956FA306456885799C06AABACE5263FE.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/UI_2D.uasset'
+[2018.12.06-04.40.01:252][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Room' took 0.022
+[2018.12.06-04.40.01:275][ 49]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/BP_3DWidget] ([1] browsable assets)...
+[2018.12.06-04.40.01:275][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/BP_3DWidget]
+[2018.12.06-04.40.01:280][ 49]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/BP_3DWidget_Auto1BD2FDC584B98B444F3C6308E7CA7ED5C.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/Autosaves/Game/UI/BP_3DWidget_Auto1.uasset'
+[2018.12.06-04.40.01:281][ 49]LogFileHelpers: Auto-saving content packages took 0.028
+[2018.12.06-04.40.09:001][903]LogMetaData: Removing '/Game/UI/SampleUI.SampleUI_C' ref from Metadata '/Game/SampleUI.PackageMetaData'
+[2018.12.06-04.40.09:001][903]LogMetaData: Removing '/Game/UI/SampleUI.SampleUI:EventGraph.K2Node_Event_0' ref from Metadata '/Game/SampleUI.PackageMetaData'
+[2018.12.06-04.40.09:001][903]LogMetaData: Removing '/Game/UI/SampleUI.SampleUI:EventGraph.K2Node_Event_1' ref from Metadata '/Game/SampleUI.PackageMetaData'
+[2018.12.06-04.40.09:001][903]LogMetaData: Removing '/Game/UI/SampleUI.SampleUI:EventGraph.K2Node_Event_2' ref from Metadata '/Game/SampleUI.PackageMetaData'
+[2018.12.06-04.40.09:001][903]LogMetaData: Removing '/Game/UI/SampleUI.SKEL_SampleUI_C:PreConstruct' ref from Metadata '/Game/SampleUI.PackageMetaData'
+[2018.12.06-04.40.09:001][903]LogMetaData: Removing '/Game/UI/SampleUI.SKEL_SampleUI_C:Construct' ref from Metadata '/Game/SampleUI.PackageMetaData'
+[2018.12.06-04.40.09:001][903]LogMetaData: Removing '/Game/UI/SampleUI.SKEL_SampleUI_C:Tick' ref from Metadata '/Game/SampleUI.PackageMetaData'
+[2018.12.06-04.40.09:001][903]LogMetaData: Removing '/Game/UI/SampleUI.SKEL_SampleUI_C:Image_568' ref from Metadata '/Game/SampleUI.PackageMetaData'
+[2018.12.06-04.40.09:001][903]LogMetaData: Removing '/Game/UI/SampleUI.SKEL_SampleUI_C:Button_1150' ref from Metadata '/Game/SampleUI.PackageMetaData'
+[2018.12.06-04.40.09:001][903]LogMetaData: Removing '/Game/UI/SampleUI.SKEL_SampleUI_C:Button_1038' ref from Metadata '/Game/SampleUI.PackageMetaData'
+[2018.12.06-04.40.09:001][903]LogMetaData: Removing '/Game/UI/SampleUI.SKEL_SampleUI_C:Button_694' ref from Metadata '/Game/SampleUI.PackageMetaData'
+[2018.12.06-04.40.09:001][903]LogMetaData: Removing '/Game/UI/SampleUI.SKEL_SampleUI_C:Button_384' ref from Metadata '/Game/SampleUI.PackageMetaData'
+[2018.12.06-04.40.09:001][903]LogMetaData: Removing '/Game/UI/SampleUI.SKEL_SampleUI_C' ref from Metadata '/Game/SampleUI.PackageMetaData'
+[2018.12.06-04.40.09:001][903]LogMetaData: Removing '/Game/UI/SampleUI.SampleUI_C:Image_568' ref from Metadata '/Game/SampleUI.PackageMetaData'
+[2018.12.06-04.40.09:001][903]LogMetaData: Removing '/Game/UI/SampleUI.SampleUI_C:Button_1150' ref from Metadata '/Game/SampleUI.PackageMetaData'
+[2018.12.06-04.40.09:001][903]LogMetaData: Removing '/Game/UI/SampleUI.SampleUI_C:Button_1038' ref from Metadata '/Game/SampleUI.PackageMetaData'
+[2018.12.06-04.40.09:001][903]LogMetaData: Removing '/Game/UI/SampleUI.SampleUI_C:Button_694' ref from Metadata '/Game/SampleUI.PackageMetaData'
+[2018.12.06-04.40.09:001][903]LogMetaData: Removing '/Game/UI/SampleUI.SampleUI_C:Button_384' ref from Metadata '/Game/SampleUI.PackageMetaData'
+[2018.12.06-04.40.09:016][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/SampleUI" FILE="../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/SampleUI.uasset" SILENT=true
+[2018.12.06-04.40.09:026][903]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/SampleUIC53DA8444F05A78B5A9A15A58B4CB960.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/SampleUI.uasset'
+[2018.12.06-04.40.09:030][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SampleUI" FILE="../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/SampleUI.uasset" SILENT=true
+[2018.12.06-04.40.09:166][903]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/SampleUI606DA2B1480B8357C0DFD588973BDFCF.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/SampleUI.uasset'
+[2018.12.06-04.40.28:287][391]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/SampleUI.SampleUI
+[2018.12.06-04.40.28:755][391]LogSlate: Took 0.001573 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.12.06-04.43.21:472][ 48]BlueprintLog: New page: SampleUI 컴파일
+[2018.12.06-04.43.26:361][601]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/Room1BBA5D8C4ECDC0D026F73C88E45EFC9D.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/Maps/Room.umap'
+[2018.12.06-04.43.26:398][601]LogFileHelpers: Saving map 'Room' took 0.244
+[2018.12.06-04.43.26:404][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BP_3DWidget" FILE="../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/BP_3DWidget.uasset" SILENT=true
+[2018.12.06-04.43.26:409][601]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/BP_3DWidgetD0A5B8CF4B378B140096FA9AE5177B1D.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/BP_3DWidget.uasset'
+[2018.12.06-04.43.26:413][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/SampleUI" FILE="../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/SampleUI.uasset" SILENT=true
+[2018.12.06-04.43.26:431][601]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/SampleUI55865D6D4A2332E8EB9384A15EC62E51.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/SampleUI.uasset'
+[2018.12.06-04.45.05:763][242]BlueprintLog: New page: SampleUI 컴파일
+[2018.12.06-04.52.24:704][239]BlueprintLog: New page: SampleUI 컴파일
+[2018.12.06-04.52.35:160][852]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/UI/BP_3DWidget.BP_3DWidget
+[2018.12.06-04.54.13:697][711]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Room' took 0.024
+[2018.12.06-04.54.13:698][711]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/BP_3DWidget] ([1] browsable assets)...
+[2018.12.06-04.54.13:698][711]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/BP_3DWidget]
+[2018.12.06-04.54.13:708][711]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/BP_3DWidget_Auto2C8D8D5454AFF9BC021B428B599830D20.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/Autosaves/Game/UI/BP_3DWidget_Auto2.uasset'
+[2018.12.06-04.54.13:710][711]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/SampleUI] ([1] browsable assets)...
+[2018.12.06-04.54.13:710][711]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/SampleUI]
+[2018.12.06-04.54.13:736][711]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/SampleUI_Auto2650018E94AB4D364E50F1A93D0B595D2.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/Autosaves/Game/UI/SampleUI_Auto2.uasset'
+[2018.12.06-04.54.13:737][711]LogFileHelpers: Auto-saving content packages took 0.039
+[2018.12.06-04.54.20:480][734]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.06-04.54.49:160][964]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-04.55.03:802][687]LogEditorTransaction: Undo 스케일 설정
+[2018.12.06-04.55.04:086][687]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.278 s
+[2018.12.06-04.55.04:086][687]LogOutputDevice: Error: === Handled ensure: ===
+[2018.12.06-04.55.04:086][687]LogOutputDevice: Error: 
+[2018.12.06-04.55.04:086][687]LogOutputDevice: Error: Ensure condition failed: !GIsTransacting [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Classes\Editor/TransBuffer.h] [Line: 72]
+[2018.12.06-04.55.04:086][687]LogOutputDevice: Error: 
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: Stack: 
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf2e671f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf2ba0c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf2bbb356 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf0e9eedf UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf0e44514 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffae5da41a9 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffae5da4ee5 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffae5d51a51 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf269d0d2 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf2663f79 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf2706a2e UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf25193b0 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf24b1444 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaee480014 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaee0f8d70 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaee08f869 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaee484833 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaee46b550 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaee41b524 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaee470f0a UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaee02b41b UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaee0b843e UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaee105d9d UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf0e44dc6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf0e701fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf0e56535 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf0ec2dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf0f09b6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf0e9c81f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaee0905b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf24b24df UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf24f437e UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf16f3a8e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf16e1a08 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf24770ac UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf24f606c UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffaf24e9846 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffb1b2fce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffb1b2f0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffb1b2ff4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffb1b2ec209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffb3ff26d41 USER32.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffb3ff26713 USER32.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffb1b300646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ff6bdfe54e5 UE4Editor.exe!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ff6bdff5b3c UE4Editor.exe!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ff6bdff5bba UE4Editor.exe!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ff6be003dac UE4Editor.exe!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ff6be005aaa UE4Editor.exe!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffb408c3034 KERNEL32.DLL!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: [Callstack] 0x00007ffb429b1471 ntdll.dll!UnknownFunction []
+[2018.12.06-04.55.04:087][687]LogOutputDevice: Error: 
+[2018.12.06-04.55.04:097][687]LogStats:                SubmitErrorReport -  0.000 s
+[2018.12.06-04.55.05:670][687]LogStats:                    SendNewReport -  1.574 s
+[2018.12.06-04.55.05:670][687]LogStats:             FDebug::EnsureFailed -  1.862 s
+[2018.12.06-04.55.05:685][687]Cmd: TRANSACTION UNDO
+[2018.12.06-04.55.05:686][687]LogEditorTransaction: Undo 스케일 설정
+[2018.12.06-04.55.05:692][687]Cmd: TRANSACTION UNDO
+[2018.12.06-04.55.05:692][687]LogEditorTransaction: Undo 스케일 설정
+[2018.12.06-04.55.05:697][687]Cmd: TRANSACTION UNDO
+[2018.12.06-04.55.05:697][687]LogEditorTransaction: Undo 컴포넌트 변경
+[2018.12.06-04.55.05:725][687]Cmd: TRANSACTION UNDO
+[2018.12.06-04.55.05:725][687]LogEditorTransaction: Undo Widget Class 편집
+[2018.12.06-04.55.53:956][999]LogEditorTransaction: Undo 컴포넌트 변경
+[2018.12.06-04.55.55:610][193]LogEditorTransaction: Undo 컴포넌트 변경
+[2018.12.06-04.55.57:728][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-04.56.29:646][709]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-04.56.29:754][722]BlueprintLog: New page: BP_3DWidget 컴파일
+[2018.12.06-04.57.04:674][871]BlueprintLog: New page: SampleUI 컴파일
+[2018.12.06-04.57.05:706][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/SampleUI" FILE="../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/SampleUI.uasset" SILENT=true
+[2018.12.06-04.57.05:724][979]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/SampleUI4370BB4343CCD6FAC14454A6A0090D83.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/SampleUI.uasset'
+[2018.12.06-04.57.13:304][870]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.06-04.57.13:308][870]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.06-04.57.19:499][608]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-04.57.25:720][353]LogEditorTransaction: Undo X 편집
+[2018.12.06-04.57.26:538][448]Cmd: TRANSACTION UNDO
+[2018.12.06-04.57.26:538][448]LogEditorTransaction: Undo Widget Class 편집
+[2018.12.06-04.58.36:825][872]LogEditorTransaction: Undo 위젯 자극
+[2018.12.06-04.58.37:555][958]LogEditorTransaction: Undo 위젯 자극
+[2018.12.06-04.58.38:022][ 13]LogEditorTransaction: Undo 위젯 자극
+[2018.12.06-04.58.38:346][ 51]LogEditorTransaction: Undo 위젯 자극
+[2018.12.06-04.58.38:695][ 92]LogEditorTransaction: Undo 위젯 자극
+[2018.12.06-04.58.39:062][135]LogEditorTransaction: Undo 위젯 자극
+[2018.12.06-04.58.39:428][178]LogEditorTransaction: Undo 위젯 자극
+[2018.12.06-04.58.39:736][214]LogEditorTransaction: Undo 위젯 자극
+[2018.12.06-04.58.40:010][246]LogEditorTransaction: Undo 위젯 자극
+[2018.12.06-04.58.40:260][275]LogEditorTransaction: Undo 위젯 자극
+[2018.12.06-04.58.40:518][305]LogEditorTransaction: Undo 위젯 자극
+[2018.12.06-04.58.48:817][300]BlueprintLog: New page: SampleUI 컴파일
+[2018.12.06-04.58.51:407][594]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-04.58.51:507][606]BlueprintLog: New page: BP_3DWidget 컴파일
+[2018.12.06-04.59.23:722][431]LogEditorTransaction: Undo 위젯 자극
+[2018.12.06-04.59.24:178][484]LogEditorTransaction: Undo 위젯 자극
+[2018.12.06-04.59.25:030][585]LogEditorTransaction: Undo 위젯 자극
+[2018.12.06-05.03.00:054][160]LogEditorTransaction: Undo Bottom 편집
+[2018.12.06-05.03.00:553][218]LogEditorTransaction: Undo Right 편집
+[2018.12.06-05.03.00:805][247]LogEditorTransaction: Undo Bottom 편집
+[2018.12.06-05.03.01:097][281]LogEditorTransaction: Undo Right 편집
+[2018.12.06-05.05.30:167][ 11]LogEditorTransaction: Undo 위젯 이동
+[2018.12.06-05.05.32:921][322]LogEditorTransaction: Undo 위젯 이동
+[2018.12.06-05.05.35:737][643]LogEditorTransaction: Undo 위젯 이동
+[2018.12.06-05.08.19:398][106]LogEditorTransaction: Undo 위젯 제거
+[2018.12.06-05.08.47:383][444]BlueprintLog: New page: SampleUI 컴파일
+[2018.12.06-05.08.49:544][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/SampleUI" FILE="../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/SampleUI.uasset" SILENT=true
+[2018.12.06-05.08.49:580][686]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/SampleUIC21B8CBB4904060A985983A1FD32877E.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/SampleUI.uasset'
+[2018.12.06-05.08.54:028][212]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.06-05.08.54:032][212]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.06-05.09.08:076][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-05.09.08:193][878]BlueprintLog: New page: BP_3DWidget 컴파일
+[2018.12.06-05.09.29:060][322]BlueprintLog: New page: SampleUI 컴파일
+[2018.12.06-05.09.29:947][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/SampleUI" FILE="../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/SampleUI.uasset" SILENT=true
+[2018.12.06-05.09.29:965][412]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/SampleUICD6109CB4FD1E1CD5CE68EB0AC379F27.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/SampleUI.uasset'
+[2018.12.06-05.09.39:879][579]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.06-05.09.39:883][579]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.06-05.09.46:987][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-05.10.14:294][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/SampleUI" FILE="../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/SampleUI.uasset" SILENT=true
+[2018.12.06-05.10.14:311][624]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/SampleUIFC3D93F54A3B0B1E2183BF83856086C8.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/SampleUI.uasset'
+[2018.12.06-05.10.21:870][516]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-05.10.25:065][891]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.06-05.10.27:373][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-05.10.29:007][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/SampleUI" FILE="../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/SampleUI.uasset" SILENT=true
+[2018.12.06-05.10.29:024][360]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/SampleUI1C1139F740CF6CA07E6AEDB296EE464F.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/SampleUI.uasset'
+[2018.12.06-05.10.29:625][432]BlueprintLog: New page: SampleUI 컴파일
+[2018.12.06-05.10.37:029][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-05.11.14:313][138]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-05.11.23:901][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-05.11.58:778][595]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Room' took 0.024
+[2018.12.06-05.11.58:780][595]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/BP_3DWidget] ([1] browsable assets)...
+[2018.12.06-05.11.58:780][595]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/BP_3DWidget]
+[2018.12.06-05.11.58:789][595]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/BP_3DWidget_Auto3AD50B4224F321866A0A50D9D69C4420B.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/Autosaves/Game/UI/BP_3DWidget_Auto3.uasset'
+[2018.12.06-05.11.58:789][595]LogFileHelpers: Auto-saving content packages took 0.012
+[2018.12.06-05.12.03:394][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-05.12.05:426][851]BlueprintLog: New page: BP_3DWidget 컴파일
+[2018.12.06-05.12.19:545][627]LogLinker: '/Game/UI/3D_UI/BP_3DWidget01' 파일을 찾을 수 없습니다.
+[2018.12.06-05.12.19:545][627]LogLinker: '/Game/UI/3D_UI/BP_3DWidget01' 파일을 찾을 수 없습니다.
+[2018.12.06-05.21.58:940][904]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Room' took 0.025
+[2018.12.06-05.21.58:942][904]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/BP_3DWidget] ([1] browsable assets)...
+[2018.12.06-05.21.58:942][904]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/BP_3DWidget]
+[2018.12.06-05.21.59:651][904]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/BP_3DWidget_Auto43A4FCA814477DD98B60BB4ADF06D1B32.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/Autosaves/Game/UI/BP_3DWidget_Auto4.uasset'
+[2018.12.06-05.21.59:652][904]LogFileHelpers: Auto-saving content packages took 0.710
+[2018.12.06-05.32.12:865][225]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Room' took 0.027
+[2018.12.06-05.32.12:866][225]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/BP_3DWidget] ([1] browsable assets)...
+[2018.12.06-05.32.12:866][225]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/BP_3DWidget]
+[2018.12.06-05.32.12:881][225]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/BP_3DWidget_Auto5107D60D1474B9486860E2AB3989B9A37.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/Autosaves/Game/UI/BP_3DWidget_Auto5.uasset'
+[2018.12.06-05.32.12:883][225]LogFileHelpers: Auto-saving content packages took 0.017
+[2018.12.06-05.32.28:678][367]BlueprintLog: New page: BP_3DWidget 컴파일
+[2018.12.06-05.34.07:568][728]BlueprintLog: New page: BP_3DWidget 컴파일
+[2018.12.06-05.40.16:030][ 88]BlueprintLog: New page: BP_3DWidget 컴파일
+[2018.12.06-05.40.18:460][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BP_3DWidget" FILE="../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/BP_3DWidget.uasset" SILENT=true
+[2018.12.06-05.40.18:499][361]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/BP_3DWidgetEDF3AC3841DBB90BDA00A4905C51AC94.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/BP_3DWidget.uasset'
+[2018.12.06-05.40.36:022][456]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/VRPawn.VRPawn
+[2018.12.06-05.40.36:259][456]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2018.12.06-05.40.36:259][456]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2018.12.06-05.42.23:496][227]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Room' took 0.024
+[2018.12.06-05.42.23:497][227]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/VRPawn] ([1] browsable assets)...
+[2018.12.06-05.42.23:497][227]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/VRPawn]
+[2018.12.06-05.42.23:532][227]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/VRPawn_Auto6D8561F0A4C3A2D77BD6F5FBE87A08EAE.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/Autosaves/Game/Blueprints/VRPawn_Auto6.uasset'
+[2018.12.06-05.42.23:533][227]LogFileHelpers: Auto-saving content packages took 0.037
+[2018.12.06-05.46.51:212][287]BlueprintLog: New page: VRPawn 컴파일
+[2018.12.06-05.50.07:606][512]BlueprintLog: New page: BP_3DWidget 컴파일
+[2018.12.06-05.50.08:133][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BP_3DWidget" FILE="../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/BP_3DWidget.uasset" SILENT=true
+[2018.12.06-05.50.08:154][556]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/BP_3DWidgetF19B5859411D62A6B4E0A8B4CAB85C25.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/BP_3DWidget.uasset'
+[2018.12.06-05.50.11:326][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/VRPawn" FILE="../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/Blueprints/VRPawn.uasset" SILENT=true
+[2018.12.06-05.50.11:379][921]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/VRPawnE5D2960743DE8DACD4528EB0949260ED.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/Blueprints/VRPawn.uasset'
+[2018.12.06-05.58.30:529][304]LogSlate: Window '부모 클래스 선택' being destroyed
+[2018.12.06-06.00.18:706][527]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Room' took 0.024
+[2018.12.06-06.00.18:708][527]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/BP_3DWidget] ([1] browsable assets)...
+[2018.12.06-06.00.18:708][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/BP_3DWidget]
+[2018.12.06-06.00.18:862][527]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/BP_3DWidget_Auto74948801348A65E25BBD10991CA2D0245.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/Autosaves/Game/UI/BP_3DWidget_Auto7.uasset'
+[2018.12.06-06.00.18:863][527]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2018.12.06-06.00.18:863][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/FirstPersonCharacter]
+[2018.12.06-06.00.19:059][527]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/FirstPersonCharacter_Auto7BE6717974BD15C319FD3519842B06A0D.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/Autosaves/Game/Blueprints/FirstPersonCharacter_Auto7.uasset'
+[2018.12.06-06.00.19:060][527]LogFileHelpers: Auto-saving content packages took 0.353
+[2018.12.06-06.01.49:429][981]BlueprintLog: New page: BP_3DWidget 컴파일
+[2018.12.06-06.01.50:969][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BP_3DWidget" FILE="../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/BP_3DWidget.uasset" SILENT=true
+[2018.12.06-06.01.50:991][147]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/BP_3DWidget4C240AD24965CDB0E952DAA5374785E8.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/BP_3DWidget.uasset'
+[2018.12.06-06.10.59:397][133]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-06.11.53:983][672]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Room' took 0.023
+[2018.12.06-06.11.53:985][672]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/BP_3DWidget] ([1] browsable assets)...
+[2018.12.06-06.11.53:985][672]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/BP_3DWidget]
+[2018.12.06-06.11.54:017][672]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/BP_3DWidget_Auto8E67E705545518E9A015B3CABA9697980.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/Autosaves/Game/UI/BP_3DWidget_Auto8.uasset'
+[2018.12.06-06.11.54:018][672]LogFileHelpers: Auto-saving content packages took 0.034
+[2018.12.06-06.27.13:189][949]BlueprintLog: New page: BP_3DWidget 컴파일
+[2018.12.06-06.27.13:876][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BP_3DWidget" FILE="../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/BP_3DWidget.uasset" SILENT=true
+[2018.12.06-06.27.14:598][ 12]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/BP_3DWidget23AB9D5845C5DFFD8C7180A57D0D0180.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/UI/BP_3DWidget.uasset'
+[2018.12.06-06.27.53:720][699]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-06.27.53:845][713]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2018.12.06-06.28.10:774][703]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-06.28.42:624][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-06.28.57:682][103]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.06-06.29.05:096][992]Cmd: DELETE
+[2018.12.06-06.29.05:096][992]Cmd: ACTOR DELETE
+[2018.12.06-06.29.05:098][992]LogEditorActor: Deleted Actor: FirstPersonCharacter_C
+[2018.12.06-06.29.05:127][992]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2018.12.06-06.29.11:516][757]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.06-06.29.11:526][757]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/FirstPersonCharacter31C1FE98408538CD798C559C79C2EED8.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/Blueprints/FirstPersonCharacter.uasset'
+[2018.12.06-06.29.17:207][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.06-06.29.17:672][480]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.06-06.29.17:840][480]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/Room47D4A01F4E2278947E1D97A3464D83FB.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/Maps/Room.umap'
+[2018.12.06-06.29.17:881][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Room_BuiltData" FILE="../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/Maps/Room_BuiltData.uasset" SILENT=true
+[2018.12.06-06.29.17:940][480]LogSavePackage: Moving '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Saved/Room_BuiltDataB5541F8A4C873AD897BC5F89C9876C0B.tmp' to '../../../../../../Users/VRAR EC-Lab 03/Documents/Unreal Engine Projects/ExpeditionVR/Content/Maps/Room_BuiltData.uasset'
+[2018.12.06-06.29.19:080][616]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-06.33.37:939][987]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.601 s
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: === Handled ensure: ===
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: 
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: Ensure condition failed: CurrentTransaction [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\EditorTransaction.cpp] [Line: 1368]
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: 
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: Stack: 
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf2e671f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf2ba0c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf2bbb356 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf0eecc80 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaea27e3ea UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaea2824a9 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaea28312c UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaea28376e UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaea2820fc UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaef869d57 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaef86a1b7 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf4da4b5b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf0d0da6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf0d0d86f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffae8e4b448 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffae8e1ecf7 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffae8e241de UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffae8e101a2 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffae8e0e7cf UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffae8e0d83d UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf1214713 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaef834d09 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaef85ac2d UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaedcf2d6c UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaee1e5b7c UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaedd6f60a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf2478a9e UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf2511ff8 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf24f7c7a UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf24eb25c UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-06.33.37:939][987]LogOutputDevice: Error: [Callstack] 0x00007ffb1b2fd1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-06.33.37:940][987]LogOutputDevice: Error: [Callstack] 0x00007ffb1b2f0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-06.33.37:940][987]LogOutputDevice: Error: [Callstack] 0x00007ffb1b2ff4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-06.33.37:940][987]LogOutputDevice: Error: [Callstack] 0x00007ffb1b2ec209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-06.33.37:940][987]LogOutputDevice: Error: [Callstack] 0x00007ffb3ff26d41 USER32.dll!UnknownFunction []
+[2018.12.06-06.33.37:940][987]LogOutputDevice: Error: [Callstack] 0x00007ffb3ff26713 USER32.dll!UnknownFunction []
+[2018.12.06-06.33.37:940][987]LogOutputDevice: Error: [Callstack] 0x00007ffb1b300646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-06.33.37:940][987]LogOutputDevice: Error: [Callstack] 0x00007ff6bdfe54e5 UE4Editor.exe!UnknownFunction []
+[2018.12.06-06.33.37:940][987]LogOutputDevice: Error: [Callstack] 0x00007ff6bdff5b3c UE4Editor.exe!UnknownFunction []
+[2018.12.06-06.33.37:940][987]LogOutputDevice: Error: [Callstack] 0x00007ff6bdff5bba UE4Editor.exe!UnknownFunction []
+[2018.12.06-06.33.37:940][987]LogOutputDevice: Error: [Callstack] 0x00007ff6be003dac UE4Editor.exe!UnknownFunction []
+[2018.12.06-06.33.37:940][987]LogOutputDevice: Error: [Callstack] 0x00007ff6be005aaa UE4Editor.exe!UnknownFunction []
+[2018.12.06-06.33.37:940][987]LogOutputDevice: Error: [Callstack] 0x00007ffb408c3034 KERNEL32.DLL!UnknownFunction []
+[2018.12.06-06.33.37:940][987]LogOutputDevice: Error: [Callstack] 0x00007ffb429b1471 ntdll.dll!UnknownFunction []
+[2018.12.06-06.33.37:940][987]LogOutputDevice: Error: 
+[2018.12.06-06.33.37:951][987]LogStats:                SubmitErrorReport -  0.000 s
+[2018.12.06-06.33.43:316][987]LogStats:                    SendNewReport -  5.366 s
+[2018.12.06-06.33.43:316][987]LogStats:             FDebug::EnsureFailed -  5.978 s
+[2018.12.06-06.33.43:317][987]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2018.12.06-06.33.43:317][987]LogOutputDevice: Error: === Handled ensure: ===
+[2018.12.06-06.33.43:317][987]LogOutputDevice: Error: 
+[2018.12.06-06.33.43:317][987]LogOutputDevice: Error: Ensure condition failed: Pin->LinkedTo.Contains(ReferencingPin) || GEditor->Trans->IsObjectTransacting(Pin->GetOwningNode()) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 1728]
+[2018.12.06-06.33.43:317][987]LogOutputDevice: Error: 
+[2018.12.06-06.33.43:317][987]LogOutputDevice: Error: Stack: 
+[2018.12.06-06.33.43:317][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf2e671f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.06-06.33.43:317][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf2ba0c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.06-06.33.43:317][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf2bbb356 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.06-06.33.43:317][987]LogOutputDevice: Error: [Callstack] 0x00007ffaea27e419 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.06-06.33.43:317][987]LogOutputDevice: Error: [Callstack] 0x00007ffaea2824a9 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffaea28312c UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffaea28376e UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffaea2820fc UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffaef869d57 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffaef86a1b7 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf4da4b5b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf0d0da6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf0d0d86f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffae8e4b448 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffae8e1ecf7 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffae8e241de UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffae8e101a2 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffae8e0e7cf UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffae8e0d83d UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf1214713 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffaef834d09 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffaef85ac2d UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffaedcf2d6c UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffaee1e5b7c UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffaedd6f60a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf2478a9e UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf2511ff8 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf24f7c7a UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffaf24eb25c UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffb1b2fd1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffb1b2f0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffb1b2ff4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffb1b2ec209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffb3ff26d41 USER32.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffb3ff26713 USER32.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffb1b300646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ff6bdfe54e5 UE4Editor.exe!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ff6bdff5b3c UE4Editor.exe!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ff6bdff5bba UE4Editor.exe!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ff6be003dac UE4Editor.exe!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ff6be005aaa UE4Editor.exe!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffb408c3034 KERNEL32.DLL!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: [Callstack] 0x00007ffb429b1471 ntdll.dll!UnknownFunction []
+[2018.12.06-06.33.43:318][987]LogOutputDevice: Error: 
+[2018.12.06-06.33.43:329][987]LogStats:                SubmitErrorReport -  0.000 s
+[2018.12.06-06.33.43:638][987]LogStats:                    SendNewReport -  0.310 s
+[2018.12.06-06.33.43:638][987]LogStats:             FDebug::EnsureFailed -  0.322 s
+[2018.12.06-06.33.52:343][ 27]LogEditorTransaction: Undo 노드 이동
+[2018.12.06-06.33.53:541][166]LogEditorTransaction: Undo 노드 추가
+[2018.12.06-06.34.06:171][677]BlueprintLog: New page: BP_3DWidget 컴파일
+[2018.12.06-06.34.06:292][677]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2018.12.06-06.34.06:292][677]LogOutputDevice: Error: === Handled ensure: ===
+[2018.12.06-06.34.06:292][677]LogOutputDevice: Error: 
+[2018.12.06-06.34.06:292][677]LogOutputDevice: Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 476]
+[2018.12.06-06.34.06:292][677]LogOutputDevice: Error: UEdGraphPin::링크끊기-> Pin 'execute' on node 'Set Visibility' 핀과 상호적으로 연결되어 있지 않습니다. 'then' on node 'On Component Begin Overlap (BoxCollision)'
+[2018.12.06-06.34.06:292][677]LogOutputDevice: Error: Stack: 
+[2018.12.06-06.34.06:292][677]LogOutputDevice: Error: [Callstack] 0x00007ffaf2e671f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.06-06.34.06:292][677]LogOutputDevice: Error: [Callstack] 0x00007ffaf2ba0c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.06-06.34.06:292][677]LogOutputDevice: Error: [Callstack] 0x00007ffaf2bbb356 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.06-06.34.06:292][677]LogOutputDevice: Error: [Callstack] 0x00007ffaea23538f UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaea23518f UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaea2410e0 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaea23379c UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaf4c82ad1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaf4c5756e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaf4bd3f54 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaf4bd34ae UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaee030091 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaf126df4c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaee02f8ff UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaee0905b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaf24c29fe UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaf25c5872 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaf25a24bf UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaf2689c3b UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaf24794c5 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaf2511db2 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaf24f7c7a UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffaf24eb25c UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffb1b2fd1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffb1b2f0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffb1b2ff4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffb1b2ec209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffb3ff26d41 USER32.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffb3ff26713 USER32.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffb1b300646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ff6bdfe54e5 UE4Editor.exe!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ff6bdff5b3c UE4Editor.exe!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ff6bdff5bba UE4Editor.exe!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ff6be003dac UE4Editor.exe!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ff6be005aaa UE4Editor.exe!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffb408c3034 KERNEL32.DLL!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: [Callstack] 0x00007ffb429b1471 ntdll.dll!UnknownFunction []
+[2018.12.06-06.34.06:293][677]LogOutputDevice: Error: 
+[2018.12.06-06.34.06:303][677]LogStats:                SubmitErrorReport -  0.000 s
